@@ -8,6 +8,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue','Arial',sans-serif;
 }
+
 /* 1 Основной блок Шапка и его свойства */
 .header {
   display: flex;
@@ -24,14 +25,14 @@
 .logo {
   width: 228px;
   height: 32px;
-  }
+}
 /*Картинка "Яндекс" значение*/
 .logo_place_header {
   z-index: 1;
   position: absolute;
   left: 64px;
   top: 30px;
-  }
+}
   /*Научиться учиться H1*/
   .header__title {
   max-width: 730px;
@@ -102,16 +103,15 @@
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
 }
 /* Параграфы*/
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin: 0;
-  margin-bottom: 30px;
-}
-.two-columns__paragraph:last-of-type {
   margin: 0;
 }
 /*  span */
@@ -137,7 +137,6 @@
   width: 60%;
   margin: 100px 0 20px 0;
 }
-
 /* Заголовок Н3 */
  .section-subtitle {
   display: flex;
@@ -156,6 +155,8 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto 100px auto;
+  list-style-type: none;
+  padding: 0;
  }
 /* Заголовки в карточках */
  .table__heading {
@@ -169,16 +170,16 @@
  .table__text {
   display: flex;
   flex-direction: column;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
   padding-bottom: 20px;
   margin: 0;
  }
-
+/* Карточки */
  .table__cell {
   margin-top: 60px;
   width: 250px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
  }
 /* Убираем нижний паддинг у параграфов в карточках */
  .table__text:last-of-type {
@@ -190,7 +191,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #f2f2f2;
-  height: 890px;
+  min-height: 890px;
   position: relative;
   margin: 0;
  }
@@ -202,7 +203,7 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
-  text-align: center
+  text-align: center;
  }
 /* Н3 Выучить и не забыть */
  .feynman__subtitle {
@@ -243,40 +244,15 @@
   position: relative;
   color: white;
 }
-
 /* Заголовок Н2 */
 .section-title_theme_dark {
-  display: flex;
-  justify-content: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-  width: 60%;
   margin: 90px 0 20px 0;
-  z-index: 1;
 }
-
-/* Заголовок Н3 */
-.section-subtitle_theme_dark {
-  display: flex;
-  justify-content: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  width: 60%;
-  margin: 0;
-  z-index: 1;
- }
 /* Основной контейнер с карточками */
  .table_theme_dark {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
   margin: 0 auto 90px auto;
   z-index: 1;
  }
-
 /* Карточки */
 .table__cell_theme_dark {
   color: white;
@@ -284,26 +260,10 @@
   width: 200px;
   z-index: 1;
 }
-
-/* Заголовки в карточках */
- .table__heading_theme_dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-  padding-bottom: 20px;
-  margin: 0;
- }
-/* текст в карточках */
- .table__text_theme_dark {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 0;
- }
 /* Треугольник */
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
   position: absolute;
   width: 877px;
   height: 877px;
@@ -318,7 +278,7 @@
   background-color: #1f1f1f;
   color: white;
   min-height: 350px;
-  margin: 0 ;
+  margin: 0;
 }
 /* Свойства блока №1 */
 .footer__columns {
@@ -341,6 +301,7 @@
   width: 228px;
   height: 32px;
 }
+/* Автор */
 .footer__author {
   line-height: 25px;
   font-size: 18px;
@@ -365,6 +326,8 @@
   display: flex;
   flex-direction: column;
   margin: 0 0 16px 0;
+  padding: 0;
+  list-style-type: none;
 }
 /* Свойства ссылок */
 .footer__column-link {
