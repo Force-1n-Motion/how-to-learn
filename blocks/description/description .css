@@ -1,0 +1,7 @@
+
+/*2 Основной блок description и его свойства*/
+.description {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,11 @@
+/* Отдельные блоки с картинкой-ссылкой */
+.resources__link {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  transition-duration: 1s;
+}
+/* Свойства картинки- ссылки */
+.resources__link:hover {
+  opacity: 0.5;
+}

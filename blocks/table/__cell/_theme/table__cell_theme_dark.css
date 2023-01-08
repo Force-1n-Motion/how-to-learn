@@ -1,0 +1,6 @@
+/* Карточки */
+.table__cell_theme_dark {
+  padding-top: 80px;
+  width: 200px;
+  z-index: 1;
+}

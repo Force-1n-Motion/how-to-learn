@@ -1,0 +1,7 @@
+/* 5 Основной блок Oakley */
+.oakley {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+}

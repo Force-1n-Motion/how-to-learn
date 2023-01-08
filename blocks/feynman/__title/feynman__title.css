@@ -1,0 +1,11 @@
+
+/* Н3 Метод Фейнмана */
+.feynman__title {
+  margin: 0;
+  max-width: 648px;
+  z-index: 1;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  text-align: center;
+ }

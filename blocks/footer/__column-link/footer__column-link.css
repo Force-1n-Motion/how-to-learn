@@ -1,0 +1,14 @@
+/* Ссылки */
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  opacity: 1;
+  transition-duration: 1s;
+}
+/* Свойства ссылок */
+.footer__column-link:hover {
+  opacity: 0.5;
+}

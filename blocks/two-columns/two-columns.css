@@ -1,0 +1,8 @@
+
+/*Общий блок 1*/
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 100px;
+}

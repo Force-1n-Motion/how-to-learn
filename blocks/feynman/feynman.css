@@ -1,0 +1,12 @@
+
+/* 7 Основной блок feynman */
+.feynman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  min-height: 890px;
+  position: relative;
+  margin: 0;
+  padding-top: 100px;
+ }

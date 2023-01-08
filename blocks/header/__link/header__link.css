@@ -1,0 +1,12 @@
+/* Ссылка */
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+/* Свойства ссылки */
+.header__link:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,8 @@
+/* Общая колонка всех параграфов*/
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}

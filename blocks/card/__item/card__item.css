@@ -1,0 +1,7 @@
+/* Карточки*/
+.card__item {
+  width: 240px;
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+}

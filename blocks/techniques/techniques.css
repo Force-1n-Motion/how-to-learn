@@ -1,0 +1,9 @@
+/*3 Основной блок Techniques и его свойства */
+.techniques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  padding-top: 100px;
+}
