@@ -1,6 +1,0 @@
-/* Свойства блока №3 */
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}

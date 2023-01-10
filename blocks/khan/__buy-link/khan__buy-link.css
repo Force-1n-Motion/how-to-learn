@@ -5,6 +5,7 @@
   font-size: 30px;
   font-weight: normal;
   text-decoration: none;
+  height: 42px;
   opacity: 1;
   transition-duration: 1s;
 }

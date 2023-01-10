@@ -1,7 +1,5 @@
 @import url(../vendor/normalize.css);
 
-@import url(../blocks/pages/index.css);
-
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/rotation/rotation.css);
@@ -28,11 +26,10 @@
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
 
+/* Футер серьезно переработал, убрал 2 модификатораа вовсе, почистил кучу правил и модификаторов, все работает, взгляните пожаалуйста правильно ли я сделал, все ссылки стоят по брифу, не обязаательно же втобы каждаая колонка была флексом? не хочется ради этого терять время на переделку если это окажется не верным, но желание понимать как правильно сильнее:)*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
-@import url(../blocks/footer/__column_content_copyright/footer__column_content_copyright.css);
-@import url(../blocks/footer/__column_content_info/footer__column_content_info.css);
-@import url(../blocks/footer/__column_content_social/footer__column_content_social.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
