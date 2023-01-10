@@ -1,7 +1,6 @@
 /*Параграф <p>*/
 .header__subtitle {
   position: absolute;
-  z-index: 1;
   left: 64px;
   bottom: 30px;
   margin: 0;
