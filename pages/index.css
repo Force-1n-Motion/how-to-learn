@@ -5,8 +5,7 @@
 @import url(../blocks/rotation/rotation.css);
 
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/__place/logo__place_footer.css);
-@import url(../blocks/logo/__place/logo__place_header.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
 
 @import url(../blocks/description/description.css);
 
@@ -26,7 +25,7 @@
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
 
-/* Футер серьезно переработал, убрал 2 модификатораа вовсе, почистил кучу правил и модификаторов, все работает, взгляните пожаалуйста правильно ли я сделал, все ссылки стоят по брифу, не обязаательно же втобы каждаая колонка была флексом? не хочется ради этого терять время на переделку если это окажется не верным, но желание понимать как правильно сильнее:)*/
+/* Футер серьезно переработал, убрал 2 модификатора вовсе, почистил кучу правил и модификаторов, все работает, взгляните пожаалуйста правильно ли я сделал, все ссылки стоят по брифу, не обязаательно же втобы каждая колонка была флексом? не хочется ради этого терять время на переделку если это окажется не верным, но желание понимать как правильно сильнее:)*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
@@ -55,6 +54,7 @@
 @import url(../blocks/khan/__quote/khan__quote.css);
 @import url(../blocks/khan/__quote-author/khan__quote-author.css);
 @import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/khan/__quote-paragraph/khan__quote-paragraph.css);
 @import url(../blocks/khan/__title/khan__title.css);
 
 @import url(../blocks/oakley/oakley.css);
